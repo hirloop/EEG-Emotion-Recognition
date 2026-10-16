@@ -53,8 +53,8 @@
 - 分类时，`score > 0` 等价于 `prob > 0.5`。
 
 ## 📊 效果展示
-
 <img width="1400" height="400" alt="loso-cv" src="https://github.com/user-attachments/assets/51634458-7a3b-4fd4-86d0-b6f76d348924" />
+
 ### 1. 整体性能（Lasso + LOSO-CV）
 - **平均准确率**：60.38% (± 6.23%)
 - **总体准确率**：60.47%
