@@ -62,6 +62,7 @@
 - **二项检验**：p < 0.0001（显著高于随机水平50%）
 - **平均选中特征数**：44.1 / 89
 <img width="1400" height="400" alt="loso-cv" src="https://github.com/user-attachments/assets/51634458-7a3b-4fd4-86d0-b6f76d348924" />
+
 ### 2. 混淆矩阵分析（Lasso + LOSO-CV）
 |  | 预测中性 | 预测负性 |
 |---|---|---|
