@@ -2,6 +2,10 @@
 
 ## 📌 项目简介
 本项目旨在利用脑电（EEG）信号，预测被试所观看图片的情绪类别（负性 vs 中性）。项目使用**L1正则化逻辑回归（Lasso）** 进行特征选择与分类，并采用**留一被试交叉验证（LOSO-CV）** 来评估模型的泛化能力，最后对比了使用高被选特征训练的SVM模型效果。
+ - 本项目代码基于MATLAB，并依赖`Statistics and Machine Learning Toolbox`
+ - `dataExtract.m`用于提取EEG频域或时域特征并合成数据集
+ - `lassoTraining.m`用于Lasso逻辑回归训练及效果检验
+ - `SVMTraining.m`用于SVM模型训练及检验
 
 ## 📂 数据准备
 
@@ -112,9 +116,3 @@
 ## 🚀 后续改进方向
 - [ ] **特征工程进阶**：加入脑网络连通性（如相干性、PLI）、左右脑不对称指数（如 Alpha 不对称）。
 - [ ] **模型对比**：后续可尝试按被试划分的 SVM、随机森林、XGBoost，并做超参数调优。
-
----
-
-## 🛠️ 环境依赖
-- MATLAB (推荐 R2020a 及以上)
-- Statistics and Machine Learning Toolbox (`lassoglm`, `perfcurve`, `confusionmat`)
